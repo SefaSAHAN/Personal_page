@@ -1,0 +1,23 @@
+html{
+    font-family:"Roboto",sans-serif;
+}
+#navbar{
+    flex-direction:column;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    overflow: hidden;
+    height: 80px;
+}
+#navbar ul li a{
+    font-size:0.8rem;
+}
+#training .items{
+    flex-direction: column;
+}
+#training .items .item{
+    width:100%;
+}
+.projects .project{
+    flex-direction: column;
+    align-items: center;
+}

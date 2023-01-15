@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sefa Sahan</title>
+    <meta name="keywords" content="Python,Html,Css,Sql,Mongodb">
+    <meta name="description" content="Sefa Sahan">
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- Css Style -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/global.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
+    <!-- Tablet -->
+    <link rel="stylesheet" media="(max-width:768px)" href="{{ url_for('static', filename='css/tablet.css') }}">
+    <!-- Phone -->
+    <link rel="stylesheet" media="(max-width:500px)" href="{{ url_for('static', filename='css/mobile.css') }}">
+    
+      
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="bg-dark-blue">
+    <div class="container">
+        <nav id="navbar" >
+            <h1 class="text-center heading-small">Sefa Sahan</h1>
+            <ul>
+                <li><a href="#home">Main Page</a></li>
+                <li><a href="#training">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+        </nav>
+    </div>
+  </header>
+
+  <!-- Home -->
+  <section id="home"> 
+    {% if error_msg %}
+    <div class="error-message" style="background-color: red; color: white; font-size: 3rem;">{{ error_msg }}</div>
+{% endif %}
+    <img src="{{ url_for('static', filename='images/sefa2.jpg') }}" alt="image">
+    <div class="name text-center"><h2 class="heading-big">Sefa Sahan</h2>
+    <p>Software Engineer | Fenyx IT Academy</p>
+    <br>
+    <p>Python Flask HTML CSS Pyqt5</p>
+    <p>Json PostgreSQL MongoDB MySql</p>
+    <p>APIs FastAPI Numpy Pandas</p>
+    </div>
+    <a href="#projects" class="btn btn-primary"> Projects</a>   
+  </section>
+  <!-- Educations -->
+  <section id="training" class="bg-dark-blue">
+    <h3 class="text-center heading-medium">Educations</h3>
+    <div class="items">
+
+      <article class="item">
+        <i class="fa-solid fa-user-graduate"></i>
+        <h3>Fenxy IT Academy (Oct 2022 - present): </h3>
+        <p>Currently enrolled in a data science bootcamp, with coursework including Python, CS-101, databases, data analysis, data visualization, and machine learning.       </p>
+      </article>
+      <article class="item">
+        <i class="fa-solid fa-user-graduate"></i>
+        <h3>M.Sc. Turkish War College, Istanbul/Turkey (2014-2016)</h3>
+        <p>Thesis: “The importance of training air force personnel in a transformational leadership style.” Presented article on “Raising a leader from past to present” at ISERD - International Conference on Education and E-Learning (ICEEL)New York, USA. January 23, 2016 </p>
+      </article>
+      <article class="item">
+        <i class="fa-solid fa-user-graduate"></i>
+        <h3>B.Sc. Turkish Air Force Academy Istanbul (Aerospace Engineering 2003-2007)</h3>
+        <p> </p>
+      </article>
+    </div>
+  </section>
+  <!-- Some Projects -->
+  <section id="projects">
+    <h3 class="text-center heading-medium">Some Projects</h3>
+    <div class="container">
+      <div class="projects">
+        <!-- Project1 -->
+        <div class="project">
+          <div class="project-image">
+            <div class="container">
+              <iframe width="340" height="191.25" src="https://www.youtube.com/embed/_UHNou_XFzU" title="YouTube video player" 
+              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowfullscreen></iframe>
+            </div> 
+            <span><a href="https://github.com/SefaSAHAN/Poker-interface" target="_blank" title="Github Poker Game"><i class="fa-brands fa-github"></i></a></span>
+          </div>
+          <div class="project-info">
+            <div class="text text-title">
+              Poker Game 
+            </div>
+            <div class="text text-opacity">Poker Game With 6 people</div>
+            <div class="tools text text-opacity">
+                <p>Python, OOP, PyQt5 used in this project. You can play poker with this project.
+                   This Project calculate all possibilities in poker game. <a href="https://github.com/SefaSAHAN/Poker-interface" target="_blank" title="Github Poker Game"><i class="fa-brands fa-github"></i></a></p>
+              </div>
+            <div class="rating"></div>
+          </div>
+        </div>
+        <!-- Project2 -->
+        <div class="project">
+          <div class="project-image">
+            <div class="container">
+              <iframe width="340" height="191.25" src="https://www.youtube.com/embed/Hp10bnkM3Es" 
+              title="YouTube video player" frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowfullscreen></iframe>
+            </div>
+            <span><a href="https://github.com/SefaSAHAN/Blog_page" target="_blank" title="Github Blog Page"><i class="fa-brands fa-github"></i></a></span>
+          </div>
+          <div class="project-info">
+            <div class="text text-title">
+                Blog page 
+            </div>
+            <div class="tools text text-opacity">
+              <p>Python, Flask, Html, Css and MySql database used for this project. 
+                You can share your articles in this page. You can also edit your artcile.
+                 You can see other user's articles   <a href="https://github.com/SefaSAHAN/Blog_page" target="_blank" title="Github Blog Page"><i class="fa-brands fa-github"></i></a></p>
+            </div>
+            <div class="rating"></div>
+          </div>
+        </div>
+        <!-- Project3 -->
+        <div class="project">
+          <div class="project-image">
+            <div class="container">
+              <iframe width="340" height="191.25" src="https://www.youtube.com/embed/tcOu_yUxi_0" title="YouTube video player" 
+              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+               allowfullscreen></iframe>
+            </div>
+            <span><a href="https://github.com/SefaSAHAN/TimeTrackingProject" target="_blank" title="Github Time Track Pomodoro"><i class="fa-brands fa-github"></i></a></span>
+          </div>
+          <div class="project-info">
+            <div class="text text-title">
+              Time Track Project (Pomodoro)
+  
+            </div>
+            <div class="tools text text-opacity">
+              <p>Python, PyQt5, Json, PostgreSql, Mongodb, Html, Css are used to create this project.
+                 This project writed by a team in Fenyx IT Academy. You can plan your projects in this 
+                 application. You can see how many hours you study on your project. 
+                 You can send your information as e-mail also. 
+                 I write this project three time with JSON, PostgreSQL and MongoDB databases. <a href="https://github.com/SefaSAHAN/TimeTrackingProject" target="_blank" title="Github Time Track Pomodoro"><i class="fa-brands fa-github"></i></a></p>
+                   
+            </div>
+            
+            <div class="rating"></div>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </section>
+  
+  <footer id="contact" class="bg-dark-blue">
+    <div class="contact-form">
+      <form class="text-center heading-medium" action="/" method="post">
+        <h4>Contact with me</h4>
+
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input 
+            class="form-control
+            "type="text" 
+            name="name" 
+            id="name" 
+            placeholder="Name"/>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input 
+            class="form-control
+            "type="text" 
+            name="email" 
+            id="email" 
+            placeholder="E-mail"/>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea name="message" id="message" rows="5" class="form-control" placeholder="Your Message"></textarea>
+        </div>
+        <button type="submit"  class="btn btn-block">Submit</button>
+      </form>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/sefa-sahan-498ba2252/" target="_blank" title="Linkedin"><i class="fa-brands fa-linkedin"></i></a></li>
+        <li><a href="https://github.com/SefaSAHAN" target="_blank" title="Github"><i class="fa-brands fa-github"></i></a></li>
+      </ul>
+      
+    </div>
+
+  </footer>
+  
+    
+</body>
+</html>
