@@ -14,7 +14,7 @@ def index():
         text=request.form["message"]
         if validate_email(email):
             sender_email = "pycodersfenyx@gmail.com"
-            receiver_email = email
+            receiver_email = "sefasahan35@gmail.com"
             password = "rvpqrzownkvhyvqz"
             subject = "This is the subject of the email"
             msg = MIMEText(f"Name: {name}\nEmail: {email}\nText: {text}")
