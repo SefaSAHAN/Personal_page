@@ -40,7 +40,7 @@
 .btn-primary:hover{
     color: #336ea2;
     background: #fff;
-    
+
 }
 .btn-dark{
     background: #333;
@@ -49,13 +49,34 @@
 .btn-dark:hover{
     color: #333;
     background: #fff;
-    
+
 }
 .btn-block{
     width:100%;
     text-align: center;
 }
+/*experience*/
 
+#training2{
+    color:#fff;
+    padding:1rem;
+}
+#training2 .items2{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+
+
+}
+#training2 .items2 .item2{
+    flex:30%;
+    text-align:center;
+    padding:0.5rem;
+}
+#training2 .items2 .item2:hover{
+    color:#FFFF14 ;
+    opacity:0.6;
+}
 /*educations*/
 
 #training{
@@ -68,12 +89,12 @@
     align-items:center;
 }
 #training .items .item{
-    width:33%;
+    flex:1;
     text-align:center;
-    padding:0.5rem;    
+    padding:0.5rem;
 }
 #training .items .item:hover{
-    color:red;
+    color:#FFFF14 ;
     opacity:0.6;
 }
 
@@ -84,7 +105,7 @@
     margin-bottom:0.25rem ;
 }
 .text-title{
-    font-weight: 700;      
+    font-weight: 700;
 }
 .text-opacity{
     opacity:0.6;

@@ -20,8 +20,8 @@
     <link rel="stylesheet" media="(max-width:768px)" href="{{ url_for('static', filename='css/tablet.css') }}">
     <!-- Phone -->
     <link rel="stylesheet" media="(max-width:500px)" href="{{ url_for('static', filename='css/mobile.css') }}">
-    
-      
+
+
 </head>
 <body>
   <!-- Navbar -->
@@ -34,33 +34,73 @@
                 <li><a href="#training">Education</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
-                
+
             </ul>
         </nav>
     </div>
   </header>
 
   <!-- Home -->
-  <section id="home"> 
+  <section id="home">
     <img src="{{ url_for('static', filename='images/sefa2.jpg') }}" alt="image">
     <div class="name text-center"><h2 class="heading-big">Sefa Sahan</h2>
-    <p>Software Engineer | Fenyx IT Academy</p>
+    <p>Azure Data Engineer | Ernst & Young </p>
     <br>
-    <p>Python Flask HTML CSS Pyqt5</p>
-    <p>Json PostgreSQL MongoDB MySql</p>
-    <p>APIs FastAPI Numpy Pandas</p>
+    <p>Microsoft Azure Python</p>
+    <p>PowerBI SQL HTML CSS</p>
+    <p>PostgreSQL MongoDB MySql</p>
+    <p>APIs Numpy Pandas</p>
+    <br>
+    <h3>Certificates</h3>
+    <p>DP203 Azure Data Engineering Associate</p>
+    <p>DP100 Azure Data Scientist Associate</p>
+    <p>DP900 Azure Data Fundamentals</p>
+    <p>ITIL 4 Foundations</p>
+    <p>Fenyx Data Science with Python</p>
+    <p>Azure Academy Data Engineering</p>
     </div>
-    <a href="#projects" class="btn btn-primary"> Projects</a>   
+    <a href="#projects" class="btn btn-primary"> Projects</a>
   </section>
-  <!-- Educations -->
-  <section id="training" class="bg-dark-blue">
+  <!-- Experiences -->
+
+  <section id="training2" class="bg-dark-blue">
+    <h3 class="text-center heading-medium">Experiences</h3>
+    <div class="items2">
+        <article class="item2">
+        <i class="fa-solid fa-briefcase"></i>
+        <h3>Ernst & Young | Data engineer (Oct 2023 - Present): </h3>
+        <p>As a newly appointed Data Engineer at EY, I bring passion and expertise to drive efficient data processing in data engineering projects.</p>
+      </article>
+
+        <article class="item2">
+        <i class="fa-solid fa-briefcase"></i>
+        <h3>Econ Construction | Data analyst (Jan 2018 - May 2020): </h3>
+        <p>In a key role, focused on analyzing historical construction data, specializing in financial reports and contributing to data-driven decision-making. Additional $5M profit increase  </p>
+      </article>
+
+        <article class="item2">
+        <i class="fa-solid fa-briefcase"></i>
+        <h3>Turkish Air Force | Pilot (July 2007 - Dec 2017): </h3>
+        <p>Extensive experience in challenging flight operations and diverse Air Force missions was gained.  Excellence in high-pressure situations.Quick decision-making. </p>
+      </article>
+     </div>
+    </section>
+
+    <br>
+
+    <section id="training" class="bg-dark-blue">
     <h3 class="text-center heading-medium">Educations</h3>
     <div class="items">
+        <article class="item">
+        <i class="fa-solid fa-user-graduate"></i>
+        <h3>Azure / ITPH academy (July 2023 - Oct 2023): </h3>
+        <p>Enrolled in a Azure data engineering course, with coursework including Azure data engineering DP203, DP900, ITIL certification, PowerBI, Azure Databricks, Azure data factory       </p>
+      </article>
 
       <article class="item">
         <i class="fa-solid fa-user-graduate"></i>
-        <h3>Fenxy IT Academy (Oct 2022 - present): </h3>
-        <p>Currently enrolled in a data science bootcamp, with coursework including Python, CS-101, databases, data analysis, data visualization, and machine learning.       </p>
+        <h3>Fenxy IT Academy (Oct 2022 - May 2023): </h3>
+        <p>Enrolled in a data science bootcamp, with coursework including Python, CS-101, databases, data analysis, data visualization, and machine learning.       </p>
       </article>
       <article class="item">
         <i class="fa-solid fa-user-graduate"></i>
@@ -83,10 +123,33 @@
         <div class="project">
           <div class="project-image">
             <div class="container">
-              <iframe width="340" height="191.25" src="https://www.youtube.com/embed/sPyiNd2Ic_U" title="YouTube video player" 
-              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              <iframe width="340" height="191.25" src="https://www.youtube.com/embed/3F1bcBjjIF0?si=9tYNSS6s8_UIG85b" title="YouTube video player"
+              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen></iframe>
-            </div> 
+            </div>
+            <span><a href="https://github.com/SefaSAHAN" target="_blank" title="Azure Data Engineering Project"><i class="fa-brands fa-github"></i></a></span>
+          </div>
+          <div class="project-info">
+            <div class="text text-title">
+              Azure Data Engineering Project
+            </div>
+            <div class="text text-opacity">Azure Data Engineering Project</div>
+            <div class="tools text text-opacity">
+                <p>With a focus on unified data handling, our Medallion process transforms raw CSV data through Azure Data Lake and Databricks,
+                culminating in impactful Power BI reports. Guided by Scrum, our collaborative team seamlessly navigated challenges.
+                Databricks emerged as our project's linchpin, offering a unified, scalable, and collaborative platform. <a href="https://github.com/SefaSAHAN/Shark-Poker-AI-Project" target="_blank" title="Shark Poker Bot"><i class="fa-brands fa-github"></i></a></p>
+              </div>
+            <div class="rating"></div>
+          </div>
+        </div>
+        <!-- Project2 -->
+        <div class="project">
+          <div class="project-image">
+            <div class="container">
+              <iframe width="340" height="191.25" src="https://www.youtube.com/embed/sPyiNd2Ic_U" title="YouTube video player"
+              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
+            </div>
             <span><a href="https://github.com/SefaSAHAN/Shark-Poker-AI-Project" target="_blank" title="Shark Poker Bot"><i class="fa-brands fa-github"></i></a></span>
           </div>
           <div class="project-info">
@@ -97,20 +160,20 @@
             <div class="tools text text-opacity">
                 <p>Shark Poker Bot is a machine learning project aimed at developing a bot that can play
                    1 vs 1 poker games. The bot uses various machine learning techniques to make decisions
-                  while playing. In this project, I focused on developing a bot that can play Texas Hold'em 
+                  while playing. In this project, I focused on developing a bot that can play Texas Hold'em
                   No Limit, one of the most popular types of poker games. <a href="https://github.com/SefaSAHAN/Shark-Poker-AI-Project" target="_blank" title="Shark Poker Bot"><i class="fa-brands fa-github"></i></a></p>
               </div>
             <div class="rating"></div>
           </div>
         </div>
-        <!-- Project2 -->
+        <!-- Project3 -->
         <div class="project">
           <div class="project-image">
             <div class="container">
-              <iframe width="340" height="191.25" src="https://www.youtube.com/embed/VEjka-sY5f0" title="YouTube video player" 
-              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              <iframe width="340" height="191.25" src="https://www.youtube.com/embed/VEjka-sY5f0" title="YouTube video player"
+              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen></iframe>
-            </div> 
+            </div>
             <span><a href="https://github.com/SefaSAHAN/Credit_Score_Predict_ML_Project" target="_blank" title="Bank Customer Credit Score Machine Learning Project"><i class="fa-brands fa-github"></i></a></span>
           </div>
           <div class="project-info">
@@ -124,19 +187,19 @@
             <div class="rating"></div>
           </div>
         </div>
-        <!-- Project3 -->
+        <!-- Project4 -->
         <div class="project">
           <div class="project-image">
             <div class="container">
-              <iframe width="340" height="191.25" src="https://www.youtube.com/embed/_UHNou_XFzU" title="YouTube video player" 
-              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              <iframe width="340" height="191.25" src="https://www.youtube.com/embed/_UHNou_XFzU" title="YouTube video player"
+              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen></iframe>
-            </div> 
+            </div>
             <span><a href="https://github.com/SefaSAHAN/Poker-interface" target="_blank" title="Github Poker Game"><i class="fa-brands fa-github"></i></a></span>
           </div>
           <div class="project-info">
             <div class="text text-title">
-              Poker Game 
+              Poker Game
             </div>
             <div class="text text-opacity">Poker Game With 6 people</div>
             <div class="tools text text-opacity">
@@ -146,34 +209,34 @@
             <div class="rating"></div>
           </div>
         </div>
-        <!-- Project4 -->
+        <!-- Project5 -->
         <div class="project">
           <div class="project-image">
             <div class="container">
-              <iframe width="340" height="191.25" src="https://www.youtube.com/embed/Hp10bnkM3Es" 
-              title="YouTube video player" frameborder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              <iframe width="340" height="191.25" src="https://www.youtube.com/embed/Hp10bnkM3Es"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen></iframe>
             </div>
             <span><a href="https://github.com/SefaSAHAN/Blog_page" target="_blank" title="Github Blog Page"><i class="fa-brands fa-github"></i></a></span>
           </div>
           <div class="project-info">
             <div class="text text-title">
-                Blog page 
+                Blog page
             </div>
             <div class="tools text text-opacity">
-              <p>Python, Flask, Html, Css and MySql database used for this project. 
+              <p>Python, Flask, Html, Css and MySql database used for this project.
                 You can share your articles in this page. You can also edit your artcile.
                  You can see other user's articles   <a href="https://github.com/SefaSAHAN/Blog_page" target="_blank" title="Github Blog Page"><i class="fa-brands fa-github"></i></a></p>
             </div>
             <div class="rating"></div>
           </div>
         </div>
-        <!-- Project5 -->
+        <!-- Project6 -->
         <div class="project">
           <div class="project-image">
             <div class="container">
-              <iframe width="340" height="191.25" src="https://www.youtube.com/embed/tcOu_yUxi_0" title="YouTube video player" 
+              <iframe width="340" height="191.25" src="https://www.youtube.com/embed/tcOu_yUxi_0" title="YouTube video player"
               frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                allowfullscreen></iframe>
             </div>
@@ -182,56 +245,55 @@
           <div class="project-info">
             <div class="text text-title">
               Time Track Project (Pomodoro)
-  
+
             </div>
             <div class="tools text text-opacity">
               <p>Python, PyQt5, Json, PostgreSql, Mongodb, Html, Css are used to create this project.
-                 This project writed by a team in Fenyx IT Academy. You can plan your projects in this 
-                 application. You can see how many hours you study on your project. 
-                 You can send your information as e-mail also. 
+                 This project writed by a team in Fenyx IT Academy. You can plan your projects in this
+                 application. You can see how many hours you study on your project.
+                 You can send your information as e-mail also.
                  I write this project three time with JSON, PostgreSQL and MongoDB databases. <a href="https://github.com/SefaSAHAN/TimeTrackingProject" target="_blank" title="Github Time Track Pomodoro"><i class="fa-brands fa-github"></i></a></p>
-                   
+
             </div>
-            
+
             <div class="rating"></div>
           </div>
         </div>
       </div>
-    </div>  
+    </div>
   </section>
-  
+
   <footer id="contact" class="bg-dark-blue">
     <div class="contact-form">
       <form class="text-center heading-medium" action="/" method="post">
         <h4>Contact with me</h4>
-    
+
         <div class="form-group">
             <label for="name">Name</label>
             <input class="form-control" type="text" name="name" id="name" placeholder="Name"/>
         </div>
-    
+
         <div class="form-group">
             <label for="email">Email</label>
             <input class="form-control" type="text" name="email" id="email" placeholder="E-mail"/>
         </div>
-    
+
         <div class="form-group">
             <label for="message">Message</label>
             <textarea name="message" id="message" rows="5" class="form-control" placeholder="Your Message"></textarea>
         </div>
-    
+
         <button type="submit" class="btn btn-block">Submit</button>
     </form>
-    
       <ul>
         <li><a href="https://www.linkedin.com/in/sefa-sahan-498ba2252/" target="_blank" title="Linkedin"><i class="fa-brands fa-linkedin"></i></a></li>
         <li><a href="https://github.com/SefaSAHAN" target="_blank" title="Github"><i class="fa-brands fa-github"></i></a></li>
       </ul>
-      
+
     </div>
 
   </footer>
-  
-    
+
+
 </body>
 </html>
